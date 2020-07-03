@@ -1,0 +1,12 @@
+#container {
+    background-color: aqua;
+    width: 360px;
+    margin: 0 auto;
+    border: 2px dashed red;
+    color: black;
+}
+
+.completed {
+    color: red;
+    text-decoration: line-through;
+}
