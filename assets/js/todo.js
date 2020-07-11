@@ -23,6 +23,10 @@ $("input[type='text']").keypress(function(event){
     if (event.which==13){
         var new_text = $(this).val();
         $(this).val("");
-        $("ul").append("<li><span id=\"deleteX\">X </span>" + new_text + "</li>")
+        $("ul").append("<li><span id=\"deleteX\"><i class=\"fa fa-trash\"></i></span>" + new_text + "</li>")
     }
+})
+
+$("#adding").click(function(){
+    $("input[type='text']").fadeToggle();
 })
